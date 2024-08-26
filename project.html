@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body{
+            background-image:url("/HTML/image.jpg");
+            background-size:cover;
+            color:antiquewhite;
+        }
+        @keyframes text{
+            0%{
+                left:500px;
+            }
+            50%{
+                tranform:rotate(90deg);
+            }
+            100%{
+                left:0px;
+            }
+        }
+        header{
+            animation:text 5s ease-in 1s 2 alternate;
+        }
+        main{
+            animation:text 5s steps(6) 1s 2 alternate;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1 style="font-weight:bolder;text-align:center;text-decoration:underline;text-decoration-style:dashed;">Tech Stack Projects built by me</h1>
+    </header>
+    <main style="font-size:30px; color:gainsboro; font-family:Tangerine;">
+        <section>
+            <p>This is the first ever web page that I have built using HTML.</p>
+            <a href="/HTML/index.html" target="_main"><img src="/HTML/project.png" alt="illustration" height="200px" width="300px"/></a>
+        </section>
+        <section>
+            <p>This is my first form that I have built using HTML.</p>
+            <a href="/FORMS/form.html" target="_main"><img src="/HTML/form.png" alt="illustration" height="200px" width="300px"/></a>
+        </section>
+        <section>
+            <p>This is a front-end web development project wherein I have built the home page of myntra, an e-commerece web site.</p>
+            <a href="/HTML/project.html" target="main"><img src="/HTML/front end image.png"alt="illustartion" height="200px" width="300px";/></a>
+        </section>
+    </main>
+
+</body>
+</html>
